@@ -13,10 +13,14 @@ class Person(object):
 
 	name = property(get_name,set_name,del_name,"none docs")
 
-
 person = Person('Anderson')
 print person.name
 print person._name
+
+
+#Sera que essa dificuldade em criar gets e sets tem haver com a verificacao da linguagem de script?
+#a variavel que vai receber o valor final tem que ser diferente da variavel que recebe o valor.
+#pq so assim nao acontece a recursividade, tanto no get como no set.
 
 
 

@@ -18,3 +18,6 @@ print c1.X
 #Nao da o resultado esperado, a composicao tem de ser feita diretamente na classe e nao no objeto.
 c1.Y = DescSquare(10)
 print c1.Y
+
+
+#descriptor generico
