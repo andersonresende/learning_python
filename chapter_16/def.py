@@ -1,0 +1,1 @@
+#def cria um objeto funcao com o nome a ela atribuido, no momento que a importamos.
