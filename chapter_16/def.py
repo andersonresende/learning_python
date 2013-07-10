@@ -10,6 +10,7 @@
 #assim funcoes em python nunca podem dar erro de compilacao, pq nao sabemos oque elas recebem
 #ou oque elas retornam.
 
+
 input = raw_input('input:')
 if input:
 	def fun():
