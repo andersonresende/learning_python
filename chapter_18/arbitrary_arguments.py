@@ -6,7 +6,6 @@ em funcoes que ja tem um numero de parametros definidos. E como se
 estivessemos passando os argumentos em uma lista ou dicionario, apenas
 isso. Na falta de algum obrigatorio, ou adicao de algum outro a funcao
 vai apresentar erros, como faria normalmente.
-
 '''
 
 '''Funcoes simples'''
@@ -34,7 +33,6 @@ def add_one(func,*args,**kwargs):
 	args = [a+1 for a in args]
 	for k in kwargs:
 		kwargs[k] = kwargs[k] +1
-
 	return func(*args,**kwargs)
 
 def multi(a,b): print a*b
