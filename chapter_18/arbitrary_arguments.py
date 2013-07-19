@@ -1,4 +1,4 @@
-'''
+
 Python possui formas de construir funcoes que nao determinam
 a quantidade de argumentos que podem receber. Assim temos *args
 e **kwargs. Tambem podemos usar essas notacoes para passar argumentos
